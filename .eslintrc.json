@@ -25,7 +25,9 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
   },
   "settings": {
     "import/resolver": {
