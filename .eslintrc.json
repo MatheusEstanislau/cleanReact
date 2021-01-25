@@ -36,7 +36,11 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "max-classes-per-file": "off",
+    "no-empty-function": "off",
+    "no-useless-constructor":"off",
+    "import/prefer-default-export": "off"
   },
   "settings": {
     "import/resolver": {
